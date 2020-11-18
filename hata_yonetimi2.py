@@ -8,7 +8,14 @@ try:
     bolum = sayi1 / sayi2
     mod = sayi1 % sayi2
 
-    print(f"Sayıların Toplamı: {toplam}\n Sayıların Farkı : {fark}\n Sayıların Bölümü : {bolum} \n Sayıların Çarpımı : {carpim} \n Sayıların Modu : {mod}")
+    print(f" Sayıların Toplamı: {toplam}\n Sayıların Farkı : {fark}\n Sayıların Bölümü : {bolum} \n Sayıların Çarpımı : {carpim} \n Sayıların Modu : {mod}")
+except ValueError:
+    print("ValueError")
+except ZeroDivisionError:
+    print("ZeroDivisionEror")
+except OverflowError:
+    print("OverflowError")
 except:
-    pass
+    print("Hata Yakalama Alanı")
+
 

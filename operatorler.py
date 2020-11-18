@@ -76,10 +76,10 @@
 # print("Notunuz : " + str(x + y))
 
 
-name = input("Adınızı Giriniz : ")
-lastname = input ("Soy Adınızı Giriniz : ")
+# name = input("Adınızı Giriniz : ")
+# lastname = input ("Soy Adınızı Giriniz : ")
 
-# print( name + "." + lastname + "@hotmail.com")
+# # print( name + "." + lastname + "@hotmail.com")
 
-mail = f"{name}.{lastname}@hotmail.com"
-print(mail)
+# mail = f"{name}.{lastname}@hotmail.com"
+# print(mail)
